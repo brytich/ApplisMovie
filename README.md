@@ -7,5 +7,6 @@
 
 ## Installation
 
-npm install --global expo-cli
-expo start
+- npm install --global expo-cli
+- expo start 
+
