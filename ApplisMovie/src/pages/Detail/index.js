@@ -63,7 +63,7 @@ function Detail() {
     //Enregistre un film dans les favoris
     async function favoriteMovie(movie){
         await saveMovie('reactFlix', movie)
-        alert('Filme salvo com sucesso')
+        alert('Films à succes')
     }
 
     return (
@@ -123,7 +123,7 @@ function Detail() {
                 renderItem={({item}) => <Genres data={item}/>}
             />
             <ScrollView showsVerticalScrollIndicator={false}>
-                <Title> Descrição </Title>
+                <Title> Description </Title>
                 <Description>
                     {movie?.overview}
                 </Description>
